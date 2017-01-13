@@ -3,8 +3,6 @@
 
 (exec-path-from-shell-copy-env "GOPATH")
 
-(load-file "$GOPATH/src/golang.org/x/tools/cmd/oracle/oracle.el")
-
 (defun my-go-mode-hook ()
   (whitespace-mode 0)
   (if (not (string-match "go" compile-command))
