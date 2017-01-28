@@ -1,1 +1,2 @@
-(prelude-require-packages '(exec-path-from-shell auto-complete go-eldoc))
+(prelude-require-packages '(exec-path-from-shell auto-complete))
+
