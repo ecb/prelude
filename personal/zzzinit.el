@@ -5,3 +5,5 @@
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (add-hook 'clojure-mode-hook #'smartparens-mode)
 (define-key (current-global-map) (kbd "H-~") (kbd "~"))
+(global-set-key "\C-s" 'isearch-forward)
+
